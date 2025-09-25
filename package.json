@@ -1,0 +1,13 @@
+{
+  "name": "yt-posts-watcher",
+  "version": "1.0.0",
+  "description": "Watch YouTube Community posts for a keyword, notify via Discord and email.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0",
+    "nodemailer": "^6.9.3"
+  }
+}
